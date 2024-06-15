@@ -1,0 +1,9 @@
+name: Dynamic-Holograms
+version: %project_version%
+main: me.cobeine.holograms.spigot.HologramsPlugin
+api-version: 1.19
+author: "cobeine"
+website: "https://github.com/Cobeine/DynamicHolograms"
+softdepend: [PlaceHoldersAPI]
+depend: [ProtocolLib]
+

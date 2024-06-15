@@ -1,0 +1,40 @@
+#messages:
+
+messages:
+  exists: "&cThis hologram already exists!"
+  created: "&aHologram created!, type /hologram addLines and /hologram place to get started!"
+  empty: "&aYou cannot place an empty hologram!"
+  non-exist: "&cThis hologram does not exist!"
+  deleted: "&aHologram has been deleted!"
+  update-fail: "&cFailed to update hologram:"
+  update-global: "&aHologram has been updated globally!"
+  not-found: "&cHologram not found!"
+  placed: "&aHologram has been placed"
+  is-placed: "&cHologram is already placed!"
+  removed: "&cHologram has been removed!"
+  not-placed: "&aHologram is not placed!"
+
+errors:
+  invalid_index: "&cindex <index> is invalid!"
+  unexpected: "&cUnexpected error! check your console"
+
+
+
+#database credentials
+database:
+  mysql:
+    host: localhost
+    port: 3306
+    username: root
+    password: ""
+    database: holograms
+    max_lifetime: 1800000
+    pool_size: 8
+  redis:
+    host: localhost
+    password: admin
+    port: 6379
+    timeout: 100
+
+#loaded holograms
+loaded_holograms:
